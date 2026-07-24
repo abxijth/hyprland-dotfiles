@@ -144,7 +144,7 @@ yay -S --needed --noconfirm "${AUR_PKGS[@]}"
 log "Enabling system services..."
 sudo systemctl enable --now NetworkManager
 sudo systemctl enable --now bluetooth
-sudo systemctl enable --now ly  # display manager
+sudo systemctl enable --now ly@tty2  # display manager on tty2
 sudo systemctl enable --now ufw
 sudo ufw enable
 
