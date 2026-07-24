@@ -98,7 +98,6 @@ PACMAN_PKGS=(
     
     # Misc
     imagemagick jq
-    ly  # display manager
 )
 
 sudo pacman -S --needed --noconfirm "${PACMAN_PKGS[@]}"
@@ -120,6 +119,9 @@ AUR_PKGS=(
     
     # Waybar with cava
     waybar-cava-git
+    
+    # Display manager
+    ly
     
     # Terminal file manager themes
     awww  # wallpaper daemon for hyprpaper
