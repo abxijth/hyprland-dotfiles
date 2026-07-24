@@ -52,7 +52,7 @@ PACMAN_PKGS=(
     swaync
     
     # Terminal & shell
-    kitty zsh
+    kitty
     
     # Application launcher
     rofi-wayland
@@ -225,16 +225,7 @@ gtk-application-prefer-dark-theme=1
 EOF
 
 # ------------------------------------------
-# 7. Shell setup (zsh)
-# ------------------------------------------
-log "Setting up zsh..."
-if [[ "$SHELL" != */zsh ]]; then
-    chsh -s "$(which zsh)"
-    info "Default shell changed to zsh. Log out and back in to take effect."
-fi
-
-# ------------------------------------------
-# 8. Set up wallpaper
+# 7. Set up wallpaper
 # ------------------------------------------
 log "Setting up wallpaper..."
 mkdir -p ~/Pictures/Wallpapers
