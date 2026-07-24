@@ -88,6 +88,7 @@ PACMAN_PKGS=(
     brightnessctl playerctl
     polkit-kde-agent
     ufw
+    unzip
     
     # Development
     git base-devel github-cli
