@@ -76,6 +76,7 @@ PACMAN_PKGS=(
     # Network
     networkmanager network-manager-applet
     bluez bluez-utils
+    gpsd
     
     # Fonts
     ttf-jetbrains-mono-nerd ttf-cascadia-code-nerd noto-fonts noto-fonts-emoji
