@@ -49,7 +49,7 @@ PACMAN_PKGS=(
     qt5-wayland qt6-wayland
     
     # Bar & notifications
-    waybar swaync
+    swaync
     
     # Terminal & shell
     kitty zsh
