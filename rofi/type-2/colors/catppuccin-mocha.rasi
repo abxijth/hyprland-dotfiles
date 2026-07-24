@@ -1,0 +1,14 @@
+/**
+ *
+ * Colors - Catppuccin Mocha
+ *
+ **/
+
+* {
+    background:     #1e1e2eFF;
+    background-alt: #313244FF;
+    foreground:     #cdd6f4FF;
+    selected:       #89b4faFF;
+    active:         #a6e3a1FF;
+    urgent:         #f38ba8FF;
+}
